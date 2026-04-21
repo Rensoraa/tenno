@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tenno</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet" />
+
+
+  <!-- Basic Meta -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Open Graph (Discord, Facebook, etc.) -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Tenno's place">
+<meta property="og:description" content="Tenno is a student, gamer, and producer navigating the chaos of school while carving out time for music, books, chess, and games. Somewhere between chess openings and ranked queues.">
+<meta property="og:url" content="https://tenno.rensora.online/">
+
+<!-- Image (IMPORTANT: must be absolute URL) -->
+<meta property="og:image" content="https://tenno.rensora.online/favicon.jpg">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+<!-- Theme color (minimal dim tone) -->
+<meta name="theme-color" content="#121212">
+
+<!-- Discord / Twitter compatibility -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Tenno's place">
+<meta name="twitter:description" content="Tenno is a student, gamer, and producer navigating the chaos of school while carving out time for music, books, chess, and games. Somewhere between chess openings and ranked queues.">
+<meta name="twitter:image" content="https://tenno.rensora.online/favicon.jpg">
+
+
+
+</head>
+<body>
+
+  <!-- LOADER -->
+  <div id="loader">
+    <div class="loader-inner">
+      <span class="loader-name">TENNO</span>
+      <div class="loader-bar-wrap">
+        <div class="loader-bar"></div>
+      </div>
+      <span class="loader-pct">0%</span>
+    </div>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <div id="main" class="hidden">
+
+    <!-- NAV -->
+    <nav>
+      <span class="nav-logo">T.</span>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#games">Games</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- HERO -->
+    <section id="hero">
+      <div class="hero-grid">
+        <div class="hero-text">
+          <p class="hero-sub">- Hello, I'm</p>
+          <h1 class="hero-title">Tenno</h1>
+          <p class="hero-desc">
+            Student. Gamer. Producer.<br />
+            Somewhere between chess openings and ranked queues.
+          </p>
+          <a href="#about" class="btn-ghost">Explore ↓</a>
+        </div>
+        <div class="hero-pfp-wrap">
+          <div class="pfp-frame">
+            <img src="favicon.jpg" alt="Tenno" />
+            <!-- Replace the div above with: <img src="your-photo.jpg" alt="Tenno" /> -->
+          </div>
+          <div class="pfp-deco"></div>
+        </div>
+      </div>
+      <div class="hero-scroll-hint">scroll</div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="section-label">01 - About</div>
+      <div class="about-grid">
+        <h2 class="section-title">Who I Am</h2>
+        <div class="about-body">
+          <p>
+            18-year-old still navigating the chaos of school while carving out time for the things that actually matter - music, books, chess, and a whole lot of games.
+          </p>
+          <p>
+            I produce music in my spare time, losing track of hours in the process. I read when the world gets loud. I play chess when I want to think, and games when I don't want to.
+          </p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-num">18+</span>
+              <span class="stat-lbl">Years old</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">4</span>
+              <span class="stat-lbl">Main games</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">3</span>
+              <span class="stat-lbl">Hobbies</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GAMES -->
+    <section id="games">
+      <div class="section-label">02 - Games</div>
+      <h2 class="section-title">Currently Playing</h2>
+      <div class="games-grid">
+        <div class="game-card" data-game="valorant">
+          <div class="game-num">01</div>
+          <div class="game-info">
+            <h3>Valorant</h3>
+            <p>Tactical FPS - precise, methodical, competitive.</p>
+          </div>
+          <div class="game-dot"></div>
+        </div>
+        <div class="game-card" data-game="osu">
+          <div class="game-num">02</div>
+          <div class="game-info">
+            <h3>osu!</h3>
+            <p>Rhythm game - patience, precision, flow state.</p>
+          </div>
+          <div class="game-dot"></div>
+        </div>
+        <div class="game-card" data-game="brawlhalla">
+          <div class="game-num">03</div>
+          <div class="game-info">
+            <h3>Brawlhalla</h3>
+            <p>Platform fighter - fast, chaotic, satisfying.</p>
+          </div>
+          <div class="game-dot"></div>
+        </div>
+        <div class="game-card" data-game="league">
+          <div class="game-num">04</div>
+          <div class="game-info">
+            <h3>League of Legends</h3>
+            <p>MOBA - strategy, lanes, endless learning curve.</p>
+          </div>
+          <div class="game-dot"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOBBIES -->
+    <section id="hobbies">
+      <div class="section-label">03 - Hobbies</div>
+      <h2 class="section-title">Beyond the Screen</h2>
+      <div class="hobbies-list">
+        <div class="hobby-item">
+          <div class="hobby-icon">♟</div>
+          <div class="hobby-content">
+            <h3>Chess</h3>
+            <p>Openings, endgames, and the quiet satisfaction of a well-played match. The board doesn't lie.</p>
+          </div>
+          <div class="hobby-line"></div>
+        </div>
+        <div class="hobby-item">
+          <div class="hobby-icon">◎</div>
+          <div class="hobby-content">
+            <h3>Music Production</h3>
+            <p>Building tracks from scratch - finding the right sound is its own kind of puzzle.</p>
+          </div>
+          <div class="hobby-line"></div>
+        </div>
+        <div class="hobby-item">
+          <div class="hobby-icon">▤</div>
+          <div class="hobby-content">
+            <h3>Reading</h3>
+            <p>Fiction, non-fiction, whatever pulls you in. A good book is the best escape there is.</p>
+          </div>
+          <div class="hobby-line"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="section-label">04 - Contact</div>
+      <div class="contact-wrap">
+        <h2 class="section-title contact-title">Let's Talk</h2>
+        <p class="contact-sub">Drop a message, start a game, or just say hey.</p>
+        <a href="https://discord.com/users/779961273289932820" class="contact-cta">Say Hello →</a>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-inner">
+        <span class="footer-year" id="footer-year"></span>
+        <span class="footer-name">Tenno</span>
+        <span class="footer-divider">|</span>
+        <span class="footer-powered">
+          Powered by <a href="https://rensora.online" target="_blank" rel="noopener">Rensora</a>
+        </span>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
